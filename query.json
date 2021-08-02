@@ -1,0 +1,8 @@
+{
+  "method": "post",
+  "data": {
+    "latitude": 1.2795877,
+    "longitude": 103.8358881,
+    "filter": "ALL"
+  }
+}

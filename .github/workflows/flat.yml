@@ -21,5 +21,6 @@ jobs:
         uses: githubocto/flat@v3
         with:
           http_url: https://step-up.sg:8000/trash-ure/web-map
+          axios_config: query.json
           downloaded_filename: data.json
           postprocess: ./postprocessing.ts
