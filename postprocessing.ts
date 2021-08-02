@@ -3,7 +3,7 @@ import { readJSON, writeJSON } from 'https://deno.land/x/flat/mod.ts';
 const filename = Deno.args[0];
 const data = await readJSON(filename);
 
-const geojsonFilename = filename.replace(/\.txt$/, '.geojson');
+const geojsonFilename = filename.replace(/\.json$/, '.geojson');
 const geoJSONData = {
   type: 'FeatureCollection',
   features: data.data.map((d: any) => {
